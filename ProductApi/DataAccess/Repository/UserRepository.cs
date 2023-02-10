@@ -14,12 +14,17 @@ public class UserRepository : IRepository<User>
         throw new NotImplementedException();
     }
 
-    public void AddProduct(User user)
+    public void Add(User user)
     {
         throw new NotImplementedException();
     }
 
-    public void DeleteProduct(User user)
+    public void Delete(User user)
+    {
+        throw new NotImplementedException();
+    }
+
+    public void Update(User user)
     {
         throw new NotImplementedException();
     }

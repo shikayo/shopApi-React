@@ -22,7 +22,7 @@ public class ProductController : ControllerBase
     {
         if (_repository.GetAll().ToList().Count == 0)
         {
-            _repository.AddProduct( new Product
+            _repository.Add( new Product
             {
                     Id = Guid.NewGuid(),
                     Title = "Fjallraven - Foldsack No. 1 Backpack, Fits 15 Laptops",
@@ -31,7 +31,7 @@ public class ProductController : ControllerBase
                     Category = "men's clothing",
                     Image = "https://fakestoreapi.com/img/81fPKd-2AYL._AC_SL1500_.jpg",
             });
-            _repository.AddProduct(new Product
+            _repository.Add(new Product
             {
                 Id    = Guid.NewGuid(),
                 Title = "Mens Casual Premium Slim Fit T-Shirts",
@@ -55,7 +55,7 @@ public class ProductController : ControllerBase
     [HttpPost]
     public HttpResponseMessage AddProduct(Product product)
     {
-        _repository.AddProduct(product);
+        _repository.Add(product);
     
         return new HttpResponseMessage(HttpStatusCode.OK);
     }
@@ -63,7 +63,15 @@ public class ProductController : ControllerBase
     [HttpPost("Delete")]
     public HttpResponseMessage DeleteProduct(Product product)
     {
-        _repository.DeleteProduct(product);
+        _repository.Delete(product);
+
+        return new HttpResponseMessage(HttpStatusCode.OK);
+    }
+
+    [HttpPost("update")]
+    public HttpResponseMessage UpdateProduct(Product product)
+    {
+        _repository.Update(product);
 
         return new HttpResponseMessage(HttpStatusCode.OK);
     }

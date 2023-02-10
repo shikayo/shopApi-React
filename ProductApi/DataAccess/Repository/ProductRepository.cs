@@ -23,20 +23,20 @@ public class ProductRepository : IRepository<Product>
         return allProducts;
     }
 
-    public void AddProduct(Product product)
+    public void Add(Product product)
     {
         product.Id=Guid.NewGuid();
         _context.Products.Add(product);
         _context.SaveChanges();
     }
 
-    public void DeleteProduct(Product product)
+    public void Delete(Product product)
     {
         _context.Products.Remove(product);
         _context.SaveChanges();
     }
 
-    public void UpdateProduct(Product product)
+    public void Update(Product product)
     {
         var p = _context.Products.SingleOrDefault(x=>x.Id==product.Id);
 
