@@ -18,6 +18,12 @@ builder.Services.AddSwaggerGen();
 builder.Services.AddDbContext<AppDbContext>(
     option => option.UseNpgsql(builder.Configuration.GetConnectionString("PgDbConnection"))
 );
+
+builder.Services.AddCors(options =>
+    options.AddPolicy("AllowSpecific", p => p.WithOrigins("http://localhost:3000")
+        .AllowAnyMethod()
+        .AllowAnyHeader()));
+
 builder.Services.AddScoped<IRepository<Product>, ProductRepository>();
 builder.Services.AddScoped<IRepository<User>, UserRepository>();
 

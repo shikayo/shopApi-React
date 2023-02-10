@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "x/Dlh7LG5MVo8kQ/fSgRL10msbBnkxVDpXApAntYHY7th60qvq7+VYhMZSSJAlOz0WXUuqsii5DEnlhLk/VyUA==",
+  "dgSpecHash": "PTVhBjlUi40EwIVjAlKgwG1DvnFkldzVfAksbSwxMQNcHFiZ9c+xWwnqPSlqn8RJseEjU492HqILaU68bcZmZA==",
   "success": true,
-  "projectFilePath": "D:\\Rider proj\\ProductApi\\ProductApi.csproj",
+  "projectFilePath": "D:\\git\\shopApi-React\\ProductApi\\ProductApi.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\japan\\.nuget\\packages\\entityframework\\6.4.0\\entityframework.6.4.0.nupkg.sha512",
     "C:\\Users\\japan\\.nuget\\packages\\entityframework6.npgsql\\6.4.3\\entityframework6.npgsql.6.4.3.nupkg.sha512",

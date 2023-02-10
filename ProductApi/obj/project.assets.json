@@ -2317,11 +2317,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\Rider proj\\ProductApi\\ProductApi.csproj",
+      "projectUniqueName": "D:\\git\\shopApi-React\\ProductApi\\ProductApi.csproj",
       "projectName": "ProductApi",
-      "projectPath": "D:\\Rider proj\\ProductApi\\ProductApi.csproj",
+      "projectPath": "D:\\git\\shopApi-React\\ProductApi\\ProductApi.csproj",
       "packagesPath": "C:\\Users\\japan\\.nuget\\packages\\",
-      "outputPath": "D:\\Rider proj\\ProductApi\\obj\\",
+      "outputPath": "D:\\git\\shopApi-React\\ProductApi\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft\\Xamarin\\NuGet\\"

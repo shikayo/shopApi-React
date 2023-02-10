@@ -35,4 +35,19 @@ public class ProductRepository : IRepository<Product>
         _context.Products.Remove(product);
         _context.SaveChanges();
     }
+
+    public void UpdateProduct(Product product)
+    {
+        var p = _context.Products.SingleOrDefault(x=>x.Id==product.Id);
+
+        p.Title = product.Title;
+        p.Category = product.Category;
+        p.Description = product.Description;
+        p.Image = product.Image;
+        p.Price = product.Price;
+
+        _context.Update(p);
+        
+        _context.SaveChanges();
+    }
 }
