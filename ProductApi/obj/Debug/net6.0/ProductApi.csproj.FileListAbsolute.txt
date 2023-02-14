@@ -144,3 +144,10 @@ D:\git\shopApi-React\ProductApi\obj\Debug\net6.0\ProductApi.dll
 D:\git\shopApi-React\ProductApi\obj\Debug\net6.0\ref\ProductApi.dll
 D:\git\shopApi-React\ProductApi\obj\Debug\net6.0\ProductApi.pdb
 D:\git\shopApi-React\ProductApi\obj\Debug\net6.0\ProductApi.genruntimeconfig.cache
+D:\git\shopApi-React\ProductApi\bin\Debug\net6.0\Microsoft.AspNetCore.Authentication.JwtBearer.dll
+D:\git\shopApi-React\ProductApi\bin\Debug\net6.0\Microsoft.IdentityModel.JsonWebTokens.dll
+D:\git\shopApi-React\ProductApi\bin\Debug\net6.0\Microsoft.IdentityModel.Logging.dll
+D:\git\shopApi-React\ProductApi\bin\Debug\net6.0\Microsoft.IdentityModel.Protocols.dll
+D:\git\shopApi-React\ProductApi\bin\Debug\net6.0\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+D:\git\shopApi-React\ProductApi\bin\Debug\net6.0\Microsoft.IdentityModel.Tokens.dll
+D:\git\shopApi-React\ProductApi\bin\Debug\net6.0\System.IdentityModel.Tokens.Jwt.dll
